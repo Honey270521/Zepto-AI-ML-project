@@ -37,6 +37,4 @@ for filename, content in documents.items():
         file.write(content)
 
     print(f"Created: {file_path}")
-
-
 print("\nAll 8 documents created successfully.")
