@@ -62,8 +62,8 @@ The assistant stores local embeddings in ChromaDB and uses LangGraph to route qu
 The root-level Dockerfile packages the support assistant as a small local service.
 
 ```bash
-docker build -t zepto-capstone .
-docker run --rm -p 7860:7860 zepto-capstone
+docker build -t zepto AI-ML .
+docker run --rm -p 7860:7860 zepto AI-ML.
 ```
 
 # Notes on the implementation
